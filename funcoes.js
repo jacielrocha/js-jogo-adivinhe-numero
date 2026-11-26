@@ -14,3 +14,7 @@ function verificarPalpite (numeroDigitado, numeroSecreto) {
     return false;
   }
 }
+
+function boaSorte (nomeJogador) {
+alert("Boa Sorte, " + nomeJogador);
+}

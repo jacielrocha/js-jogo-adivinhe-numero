@@ -3,7 +3,7 @@ let nomeJogador = prompt("Digite seu nome");
 let querJogar = confirm("Deseja jogar?");
 
 if (querJogar) {
-  alert("Boa Sorte, " + nomeJogador);
+  boaSorte (nomeJogador);
   const numeroSecreto = 7;
   let acertou = false;
 
